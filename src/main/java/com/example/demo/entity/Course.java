@@ -11,6 +11,7 @@ import java.util.List;
 @Table(name = "tbl_course")
 @ToString
 @Getter
+// 충돌 1
 public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
